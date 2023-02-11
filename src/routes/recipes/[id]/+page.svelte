@@ -20,3 +20,9 @@
 		{/each}
 	</ul>
 </div>
+
+<style>
+	h1 {
+		text-align: left;
+	}
+</style>

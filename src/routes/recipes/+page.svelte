@@ -7,9 +7,15 @@
 <div class="grid">
 	{#each data.results[0].hits as hit}
 		<div>
-			<h1>{hit.document.title}</h1>
+			<h2>{hit.document.title}</h2>
 			<p>{hit.document.directions.join(', ')}</p>
 		</div>
 		<a href="/recipes/{hit.document.id}">View Recipe</a>
 	{/each}
 </div>
+
+<style>
+	h2 {
+		font-weight: bold;
+	}
+</style>
