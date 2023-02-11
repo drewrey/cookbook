@@ -1,0 +1,1092 @@
+{
+	"results": [
+		{
+			"facet_counts": [
+				{
+					"counts": [
+						{ "count": 2503, "highlighted": "bananas", "value": "bananas" },
+						{ "count": 2263, "highlighted": "milk", "value": "milk" },
+						{ "count": 1858, "highlighted": "vanilla wafers", "value": "vanilla wafers" },
+						{ "count": 1249, "highlighted": "sugar", "value": "sugar" },
+						{ "count": 1034, "highlighted": "vanilla", "value": "vanilla" },
+						{ "count": 674, "highlighted": "eggs", "value": "eggs" },
+						{ "count": 576, "highlighted": "salt", "value": "salt" },
+						{ "count": 568, "highlighted": "flour", "value": "flour" },
+						{ "count": 542, "highlighted": "sour cream", "value": "sour cream" },
+						{ "count": 494, "highlighted": "vanilla pudding", "value": "vanilla pudding" },
+						{ "count": 413, "highlighted": "butter", "value": "butter" },
+						{ "count": 377, "highlighted": "condensed milk", "value": "condensed milk" },
+						{ "count": 329, "highlighted": "egg yolks", "value": "egg yolks" },
+						{
+							"count": 275,
+							"highlighted": "instant vanilla pudding",
+							"value": "instant vanilla pudding"
+						},
+						{
+							"count": 257,
+							"highlighted": "vanilla instant pudding",
+							"value": "vanilla instant pudding"
+						},
+						{ "count": 222, "highlighted": "cornstarch", "value": "cornstarch" },
+						{ "count": 200, "highlighted": "banana", "value": "banana" },
+						{ "count": 198, "highlighted": "cold milk", "value": "cold milk" },
+						{ "count": 197, "highlighted": "water", "value": "water" },
+						{ "count": 181, "highlighted": "Cream Cheese", "value": "Cream Cheese" },
+						{ "count": 148, "highlighted": "cold water", "value": "cold water" },
+						{ "count": 138, "highlighted": "brown sugar", "value": "brown sugar" },
+						{ "count": 128, "highlighted": "whipping cream", "value": "whipping cream" },
+						{ "count": 109, "highlighted": "margarine", "value": "margarine" },
+						{ "count": 109, "highlighted": "heavy cream", "value": "heavy cream" },
+						{ "count": 105, "highlighted": "egg whites", "value": "egg whites" },
+						{ "count": 93, "highlighted": "egg", "value": "egg" },
+						{ "count": 92, "highlighted": "cinnamon", "value": "cinnamon" },
+						{ "count": 91, "highlighted": "cream", "value": "cream" },
+						{ "count": 90, "highlighted": "lemon juice", "value": "lemon juice" },
+						{ "count": 85, "highlighted": "vanilla extract", "value": "vanilla extract" },
+						{ "count": 77, "highlighted": "unsalted butter", "value": "unsalted butter" },
+						{ "count": 75, "highlighted": "NILLA Wafers", "value": "NILLA Wafers" },
+						{ "count": 74, "highlighted": "topping", "value": "topping" },
+						{ "count": 72, "highlighted": "vanilla flavoring", "value": "vanilla flavoring" },
+						{ "count": 68, "highlighted": "bread", "value": "bread" },
+						{ "count": 66, "highlighted": "all-purpose", "value": "all-purpose" },
+						{
+							"count": 65,
+							"highlighted": "instant vanilla pudding mix",
+							"value": "instant vanilla pudding mix"
+						},
+						{ "count": 57, "highlighted": "pecans", "value": "pecans" },
+						{ "count": 54, "highlighted": "nuts", "value": "nuts" },
+						{
+							"count": 53,
+							"highlighted": "Vanilla Wafer Cookies",
+							"value": "Vanilla Wafer Cookies"
+						},
+						{ "count": 52, "highlighted": "cool whip", "value": "cool whip" },
+						{ "count": 52, "highlighted": "powdered sugar", "value": "powdered sugar" },
+						{ "count": 52, "highlighted": "cream of tartar", "value": "cream of tartar" },
+						{
+							"count": 49,
+							"highlighted": "frozen whipped topping",
+							"value": "frozen whipped topping"
+						},
+						{ "count": 48, "highlighted": "whipped cream", "value": "whipped cream" },
+						{ "count": 47, "highlighted": "ground cinnamon", "value": "ground cinnamon" },
+						{ "count": 46, "highlighted": "¼", "value": "¼" },
+						{ "count": 43, "highlighted": "baking powder", "value": "baking powder" },
+						{ "count": 42, "highlighted": "nutmeg", "value": "nutmeg" },
+						{ "count": 42, "highlighted": "chocolate", "value": "chocolate" },
+						{ "count": 42, "highlighted": "Vanilla Pudding Mix", "value": "Vanilla Pudding Mix" },
+						{ "count": 40, "highlighted": "oil", "value": "oil" },
+						{ "count": 39, "highlighted": "honey", "value": "honey" },
+						{ "count": 37, "highlighted": "white sugar", "value": "white sugar" },
+						{ "count": 36, "highlighted": "pineapple", "value": "pineapple" },
+						{ "count": 35, "highlighted": "vanilla wafer", "value": "vanilla wafer" },
+						{ "count": 34, "highlighted": "graham crackers", "value": "graham crackers" },
+						{ "count": 33, "highlighted": "sweet milk", "value": "sweet milk" },
+						{ "count": 31, "highlighted": "Banana Cream", "value": "Banana Cream" },
+						{ "count": 29, "highlighted": "cookies", "value": "cookies" },
+						{ "count": 27, "highlighted": "wafers", "value": "wafers" },
+						{ "count": 26, "highlighted": "baking soda", "value": "baking soda" },
+						{ "count": 26, "highlighted": "vanilla flavor", "value": "vanilla flavor" },
+						{ "count": 25, "highlighted": "ground nutmeg", "value": "ground nutmeg" },
+						{ "count": 25, "highlighted": "granulated sugar", "value": "granulated sugar" },
+						{ "count": 24, "highlighted": "dark rum", "value": "dark rum" },
+						{ "count": 24, "highlighted": "peanut butter", "value": "peanut butter" },
+						{ "count": 24, "highlighted": "yellow cake mix", "value": "yellow cake mix" },
+						{ "count": 23, "highlighted": "raisins", "value": "raisins" },
+						{ "count": 22, "highlighted": "coconut", "value": "coconut" },
+						{ "count": 22, "highlighted": "walnuts", "value": "walnuts" },
+						{ "count": 22, "highlighted": "vegetable oil", "value": "vegetable oil" },
+						{ "count": 22, "highlighted": "heavy whipping cream", "value": "heavy whipping cream" },
+						{
+							"count": 22,
+							"highlighted": "vanilla instant pudding mix",
+							"value": "vanilla instant pudding mix"
+						},
+						{ "count": 21, "highlighted": "oleo", "value": "oleo" },
+						{ "count": 21, "highlighted": "kosher salt", "value": "kosher salt" },
+						{ "count": 20, "highlighted": "rum", "value": "rum" },
+						{ "count": 20, "highlighted": "Mix", "value": "Mix" },
+						{ "count": 20, "highlighted": "Pet milk", "value": "Pet milk" },
+						{ "count": 20, "highlighted": "yellow cake", "value": "yellow cake" },
+						{ "count": 20, "highlighted": "vanilla bean", "value": "vanilla bean" },
+						{ "count": 19, "highlighted": "maple syrup", "value": "maple syrup" },
+						{ "count": 19, "highlighted": "marshmallows", "value": "marshmallows" },
+						{ "count": 18, "highlighted": "pudding", "value": "pudding" },
+						{ "count": 18, "highlighted": "semisweet chocolate", "value": "semisweet chocolate" },
+						{
+							"count": 18,
+							"highlighted": "banana instant pudding",
+							"value": "banana instant pudding"
+						},
+						{ "count": 17, "highlighted": "banana pudding", "value": "banana pudding" },
+						{ "count": 17, "highlighted": "Graham Cracker Crust", "value": "Graham Cracker Crust" },
+						{
+							"count": 17,
+							"highlighted": "graham cracker crumbs",
+							"value": "graham cracker crumbs"
+						},
+						{ "count": 16, "highlighted": "regular", "value": "regular" },
+						{ "count": 16, "highlighted": "instant vanilla", "value": "instant vanilla" },
+						{ "count": 15, "highlighted": "cocoa", "value": "cocoa" },
+						{ "count": 15, "highlighted": "Strawberries", "value": "Strawberries" },
+						{ "count": 15, "highlighted": "vanilla ice cream", "value": "vanilla ice cream" },
+						{ "count": 15, "highlighted": "light brown sugar", "value": "light brown sugar" },
+						{ "count": 15, "highlighted": "banana cream pudding", "value": "banana cream pudding" },
+						{ "count": 14, "highlighted": "Carnation milk", "value": "Carnation milk" },
+						{ "count": 14, "highlighted": "maraschino cherries", "value": "maraschino cherries" },
+						{
+							"count": 14,
+							"highlighted": "instant vanilla flavor pudding",
+							"value": "instant vanilla flavor pudding"
+						}
+					],
+					"field_name": "ingredient_names",
+					"stats": { "total_values": 1004 }
+				}
+			],
+			"found": 2942,
+			"hits": [
+				{
+					"document": {
+						"directions": [
+							"Mix the cornstarch, sugar, and salt in a saucepan over low heat.",
+							"Slowly add the milk and cook until the mixture begins to thicken, about 10 minutes, stirring constantly.",
+							"Put the eggs in a small bowl and slowly whisk in a ladleful of the hot milk to temper the eggs.",
+							"Add the milk-egg mixture back to saucepan and cook for 2 more minutes, stirring constantly.",
+							"When thick, remove from heat and stir in the vanilla and butter.",
+							"Mix well to combine and set aside to cool to room temperature.",
+							"Refrigerate covered with plastic wrap, until well chilled.",
+							"In a large bowl or individual bowls, add a layer of vanilla wafers, a layer of bananas and a layer of pudding.",
+							"Repeat with remaining ingredients.",
+							"Top with whipped cream and serve."
+						],
+						"id": "2226492",
+						"ingredient_names": [
+							"cornstarch",
+							"sugar",
+							"salt",
+							"milk",
+							"eggs",
+							"vanilla",
+							"butter",
+							"vanilla wafers",
+							"perfectly ripe bananas",
+							"whipped cream"
+						],
+						"ingredients_with_measurements": [
+							"1/3 cup cornstarch",
+							"2/3 cup sugar",
+							"1/4 teaspoon salt",
+							"3 cups whole milk",
+							"3 eggs, beaten",
+							"1 teaspoon vanilla extract",
+							"1/2 stick butter",
+							"1 (12-ounce) box vanilla wafers",
+							"5 perfectly ripe bananas, sliced",
+							"1 cup whipped cream"
+						],
+						"link": "http://www.foodnetwork.com/recipes/paula-deen/banana-pudding-recipe2.html",
+						"recipe_id": 2226492,
+						"title": "Banana Pudding"
+					},
+					"highlight": {
+						"title": {
+							"matched_tokens": ["Banana", "Pudding"],
+							"snippet": "<mark>Banana</mark> <mark>Pudding</mark>",
+							"value": "<mark>Banana</mark> <mark>Pudding</mark>"
+						}
+					},
+					"highlights": [
+						{
+							"field": "title",
+							"matched_tokens": ["Banana", "Pudding"],
+							"snippet": "<mark>Banana</mark> <mark>Pudding</mark>",
+							"value": "<mark>Banana</mark> <mark>Pudding</mark>"
+						}
+					],
+					"text_match": 1157451471441625209,
+					"text_match_info": {
+						"best_field_score": "2211897868544",
+						"best_field_weight": 15,
+						"fields_matched": 1,
+						"score": "1157451471441625209",
+						"tokens_matched": 2
+					}
+				},
+				{
+					"document": {
+						"directions": [
+							"Preheat oven to 350.",
+							"Make custard: whisk 3/4 cup of the sugar, the cornstarch, milk and egg yolks in a pot set over medium heat, and cook, stirring constantly, until it just begins to bubble, 10 to 15 minutes.",
+							"Turn heat down slightly, and allow mixture to simmer, still stirring constantly, for 1 minute, then remove mixture from heat.",
+							"Whisk in vanilla, salt and butter.",
+							"Make meringue: put the egg whites, cream of tartar and 1/2 cup of sugar in the heatproof bowl of an electric mixer, and set over a medium saucepan of simmering water.",
+							"Whisk until the sugar is dissolved and the mixture is hot to touch, about 3 minutes.",
+							"Transfer to the stand mixer fitted with whisk, and beat until stiff, about 5 to 7 minutes.",
+							"Line a 13-by-9-inch oven-safe casserole pan with one layer of Nilla wafers and one layer of banana slices.",
+							"(Reserve remaining Nilla wafers for a child or incident of depression.)",
+							"Pour the custard over the bananas and cookies, then use a spatula to spread the meringue.",
+							"Bake in oven for 10 to 15 minutes, until the peaks are the color of a toasted marshmallow.",
+							"Allow to rest until ready to serve."
+						],
+						"id": "2204165",
+						"ingredient_names": [
+							"sugar",
+							"cornstarch",
+							"milk",
+							"eggs",
+							"vanilla",
+							"salt",
+							"unsalted butter",
+							"cream of tartar",
+							"nilla wafers",
+							"bananas"
+						],
+						"ingredients_with_measurements": [
+							"1 1/4 cups granulated sugar, divided",
+							"13 cup cornstarch",
+							"4 cups whole milk",
+							"4 large eggs, separated and divided",
+							"1 teaspoon vanilla",
+							"1/4 teaspoon salt",
+							"2 tablespoons unsalted butter",
+							"1/4 teaspoon cream of tartar",
+							"1 11-ounce box nilla wafers",
+							"3-4 bananas, depending on size"
+						],
+						"link": "cooking.nytimes.com/recipes/1015130",
+						"recipe_id": 2204165,
+						"title": "Banana Pudding"
+					},
+					"highlight": {
+						"title": {
+							"matched_tokens": ["Banana", "Pudding"],
+							"snippet": "<mark>Banana</mark> <mark>Pudding</mark>",
+							"value": "<mark>Banana</mark> <mark>Pudding</mark>"
+						}
+					},
+					"highlights": [
+						{
+							"field": "title",
+							"matched_tokens": ["Banana", "Pudding"],
+							"snippet": "<mark>Banana</mark> <mark>Pudding</mark>",
+							"value": "<mark>Banana</mark> <mark>Pudding</mark>"
+						}
+					],
+					"text_match": 1157451471441625209,
+					"text_match_info": {
+						"best_field_score": "2211897868544",
+						"best_field_weight": 15,
+						"fields_matched": 1,
+						"score": "1157451471441625209",
+						"tokens_matched": 2
+					}
+				},
+				{
+					"document": {
+						"directions": [
+							"Melt butter in top of a double boiler; stir in brown sugar, flour, and salt.",
+							"Gradually stir in milk and water; cook until thickened, stirring constantly (about 15 to 20 minutes).",
+							"Beat egg yolks until thick and lemon colored.",
+							"Stir some of the hot mixture into yolks; add to remaining hot mixture, stirring constantly.",
+							"Cook 2 minutes longer or until thickened.",
+							"Remove from heat and stir in vanilla.",
+							"Cool.",
+							"Line bottom and sides of a lightly greased 1-3/4 quarts (1650 ml) casserole with vanilla wafers.",
+							"Slice enough bananas to cover bottom layer; top with half of pudding.",
+							"Layer with vanilla wafers, remaining banana slices, and remaining pudding.",
+							"Beat egg whites (at room temperature) until soft peaks form.",
+							"Gradually add 2 tblsp.",
+							"sugar, and continue beating until stiff peaks form.",
+							"Spread over pudding.",
+							"Bake at 350 deg.",
+							"for 10 minutes or until top is brown."
+						],
+						"id": "2193191",
+						"ingredient_names": [
+							"butter",
+							"brown sugar",
+							"flour",
+							"salt",
+							"milk",
+							"water",
+							"eggs",
+							"vanilla",
+							"vanilla wafers",
+							"bananas",
+							"sugar"
+						],
+						"ingredients_with_measurements": [
+							"1/4 cup (60 ml) butter or margarine",
+							"1-1/2 cups (350 ml) firmly packed brown sugar",
+							"2 tbsp (30 ml). all-purpose flour",
+							"Dash of salt",
+							"1 13 oz (364 grm). can evaporated milk",
+							"3/4 cup (175 ml) water",
+							"3 eggs, separated",
+							"1 tsp (5 ml). vanilla extract",
+							"vanilla wafers",
+							"3 to 4 bananas",
+							"2 tbsp (30 ml). sugar"
+						],
+						"link": "online-cookbook.com/goto/cook/rpage/00112E",
+						"recipe_id": 2193191,
+						"title": "Banana Pudding"
+					},
+					"highlight": {
+						"title": {
+							"matched_tokens": ["Banana", "Pudding"],
+							"snippet": "<mark>Banana</mark> <mark>Pudding</mark>",
+							"value": "<mark>Banana</mark> <mark>Pudding</mark>"
+						}
+					},
+					"highlights": [
+						{
+							"field": "title",
+							"matched_tokens": ["Banana", "Pudding"],
+							"snippet": "<mark>Banana</mark> <mark>Pudding</mark>",
+							"value": "<mark>Banana</mark> <mark>Pudding</mark>"
+						}
+					],
+					"text_match": 1157451471441625209,
+					"text_match_info": {
+						"best_field_score": "2211897868544",
+						"best_field_weight": 15,
+						"fields_matched": 1,
+						"score": "1157451471441625209",
+						"tokens_matched": 2
+					}
+				},
+				{
+					"document": {
+						"directions": [
+							"In a medium bowl combine milk and pudding.",
+							"Refrigerate about 15 minutes to partially set.",
+							"Stir in condensed milk until smooth.",
+							"Fold in sour cream, cool whip and bananas.",
+							"Make single later of vanilla wafers in 9x13 pan.",
+							"Spread pudding evenly over wafers.",
+							"Crush remaining wafers and sprinkle over pudding.",
+							"Refrigerate until serving."
+						],
+						"id": "2183777",
+						"ingredient_names": [
+							"vanilla pudding",
+							"Milk",
+							"condensed milk",
+							"Bananas",
+							"Vanilla wafers",
+							"Sour cream"
+						],
+						"ingredients_with_measurements": [
+							"2 packages Instant vanilla pudding, small",
+							"1 cup Milk",
+							"1 cup Sweetened condensed milk",
+							"8 oz Frozen whipped topping, thawed",
+							"6 slice Bananas",
+							"1/2 packages Vanilla wafers",
+							"8 oz Sour cream"
+						],
+						"link": "cookpad.com/us/recipes/330531-banana-pudding",
+						"recipe_id": 2183777,
+						"title": "Banana Pudding"
+					},
+					"highlight": {
+						"title": {
+							"matched_tokens": ["Banana", "Pudding"],
+							"snippet": "<mark>Banana</mark> <mark>Pudding</mark>",
+							"value": "<mark>Banana</mark> <mark>Pudding</mark>"
+						}
+					},
+					"highlights": [
+						{
+							"field": "title",
+							"matched_tokens": ["Banana", "Pudding"],
+							"snippet": "<mark>Banana</mark> <mark>Pudding</mark>",
+							"value": "<mark>Banana</mark> <mark>Pudding</mark>"
+						}
+					],
+					"text_match": 1157451471441625209,
+					"text_match_info": {
+						"best_field_score": "2211897868544",
+						"best_field_weight": 15,
+						"fields_matched": 1,
+						"score": "1157451471441625209",
+						"tokens_matched": 2
+					}
+				},
+				{
+					"document": {
+						"directions": [
+							"In a bowl place one layer of sliced bananas, then a layer of wafers,alternate until bowl is full, making sure top layer is wafer.",
+							"Set aside.",
+							"In a medium sauce pan beat eggs.",
+							"Add sugar and mix well.",
+							"Add flour, milk & vanilla.",
+							"Bring to a boil.",
+							"Pour mixture over banana & wafer mixture.",
+							"Chill about 2 hours.",
+							"Serve."
+						],
+						"id": "2182702",
+						"ingredient_names": [
+							"bananas",
+							"vanilla wafers",
+							"sugar",
+							"flour",
+							"eggs",
+							"milk",
+							"vanilla"
+						],
+						"ingredients_with_measurements": [
+							"2 -3 bananas, sliced",
+							"1 (12 ounce) box vanilla wafers",
+							"1 cup sugar",
+							"2 tablespoons flour",
+							"2 eggs",
+							"2 cups milk",
+							"1 teaspoon vanilla extract"
+						],
+						"link": "http://www.food.com/recipe/banana-pudding-191916",
+						"recipe_id": 2182702,
+						"title": "Banana Pudding"
+					},
+					"highlight": {
+						"title": {
+							"matched_tokens": ["Banana", "Pudding"],
+							"snippet": "<mark>Banana</mark> <mark>Pudding</mark>",
+							"value": "<mark>Banana</mark> <mark>Pudding</mark>"
+						}
+					},
+					"highlights": [
+						{
+							"field": "title",
+							"matched_tokens": ["Banana", "Pudding"],
+							"snippet": "<mark>Banana</mark> <mark>Pudding</mark>",
+							"value": "<mark>Banana</mark> <mark>Pudding</mark>"
+						}
+					],
+					"text_match": 1157451471441625209,
+					"text_match_info": {
+						"best_field_score": "2211897868544",
+						"best_field_weight": 15,
+						"fields_matched": 1,
+						"score": "1157451471441625209",
+						"tokens_matched": 2
+					}
+				},
+				{
+					"document": {
+						"directions": [
+							"In a large stainless steel bowl whisk together the 1/3 cup sugar, cornstarch, salt, eggs, and egg yolk.",
+							"Whisk in 1/2 cup of the milk.",
+							"Set aside while you heat the rest of the milk and sugar.",
+							"Have ready a fine medium-sized strainer and bowl as you will need to strain the pudding after it is cooked.",
+							"Pour the remaining 3 cups of milk, along with 3 tablespoons of sugar, into the saucepan and bring just to a boil.",
+							"Gradually pour the hot milk into the egg mixture, whisking constantly, until the mixture is smooth.",
+							"Transfer the pudding mixture to a clean large, heavy bottomed saucepan and place over medium-low heat.",
+							"Cook, stirring constantly, until the mixture thickens to the consistency of mayonnaise.",
+							"Remove from heat and whisk in the butter and vanilla extract.",
+							"Pour through the strainer to remove any lumps that may have formed during cooking.",
+							"Take 4 bowls or wine glasses and spoon a little of the custard into the bottom of each bowl.",
+							"Peel and slice the bananas and place a layer of bananas over the custard in each bowl.",
+							"Place another layer of custard and bananas, then finish off with a layer of custard.",
+							"The puddings can be eaten right away or placed in the refrigerator for several hours.",
+							"If you are going to place in the refrigerator, press plastic wrap onto the surface of the warm puddings to prevent a skin from forming.",
+							"Just before serving garnish each pudding with whipped cream and more slices of banana."
+						],
+						"id": "2180550",
+						"ingredient_names": [
+							"milk",
+							"sugar",
+							"granulated sugar",
+							"cornstarch",
+							"salt",
+							"eggs",
+							"egg yolk",
+							"vanilla",
+							"unsalted butter",
+							"bananas"
+						],
+						"ingredients_with_measurements": [
+							"3 12 cups milk",
+							"13 cup granulated sugar, plus",
+							"3 tablespoons granulated sugar",
+							"14 cup cornstarch",
+							"18 teaspoon salt",
+							"2 large eggs",
+							"1 large egg yolk",
+							"2 teaspoons pure vanilla extract",
+							"1 tablespoon unsalted butter",
+							"3 bananas"
+						],
+						"link": "http://www.food.com/recipe/banana-pudding-247773",
+						"recipe_id": 2180550,
+						"title": "Banana Pudding"
+					},
+					"highlight": {
+						"title": {
+							"matched_tokens": ["Banana", "Pudding"],
+							"snippet": "<mark>Banana</mark> <mark>Pudding</mark>",
+							"value": "<mark>Banana</mark> <mark>Pudding</mark>"
+						}
+					},
+					"highlights": [
+						{
+							"field": "title",
+							"matched_tokens": ["Banana", "Pudding"],
+							"snippet": "<mark>Banana</mark> <mark>Pudding</mark>",
+							"value": "<mark>Banana</mark> <mark>Pudding</mark>"
+						}
+					],
+					"text_match": 1157451471441625209,
+					"text_match_info": {
+						"best_field_score": "2211897868544",
+						"best_field_weight": 15,
+						"fields_matched": 1,
+						"score": "1157451471441625209",
+						"tokens_matched": 2
+					}
+				},
+				{
+					"document": {
+						"directions": [
+							"Preheat the oven to 375F.",
+							"Make the pudding according to the directions on the box.",
+							"Arrange the wafers, sliced bananas, and pudding in layers in a 2-quart casserole, ending with a layer of pudding on top.",
+							"This will make 3 layers.",
+							"Spread the meringue gently over the top.",
+							"Bake for 15 minutes."
+						],
+						"id": "2100263",
+						"ingredient_names": ["vanilla pudding", "vanilla wafers", "bananas", "Meringue"],
+						"ingredients_with_measurements": [
+							"1 (6-ounce) box instant vanilla pudding",
+							"1 (7 1/4-ounce) box vanilla wafers",
+							"4 bananas, sliced",
+							"Meringue"
+						],
+						"link": "http://www.epicurious.com/recipes/food/views/banana-pudding-105052",
+						"recipe_id": 2100263,
+						"title": "Banana Pudding"
+					},
+					"highlight": {
+						"title": {
+							"matched_tokens": ["Banana", "Pudding"],
+							"snippet": "<mark>Banana</mark> <mark>Pudding</mark>",
+							"value": "<mark>Banana</mark> <mark>Pudding</mark>"
+						}
+					},
+					"highlights": [
+						{
+							"field": "title",
+							"matched_tokens": ["Banana", "Pudding"],
+							"snippet": "<mark>Banana</mark> <mark>Pudding</mark>",
+							"value": "<mark>Banana</mark> <mark>Pudding</mark>"
+						}
+					],
+					"text_match": 1157451471441625209,
+					"text_match_info": {
+						"best_field_score": "2211897868544",
+						"best_field_weight": 15,
+						"fields_matched": 1,
+						"score": "1157451471441625209",
+						"tokens_matched": 2
+					}
+				},
+				{
+					"document": {
+						"directions": [
+							"Beat the vanilla pudding mix into the 3 cups of cold milk with a wire wisk.",
+							"Let set for 5 minutes.",
+							"Layer the bottom of a serving bowl with vanilla wafers.",
+							"Spoon 1/3 of the vanilla pudding on top of the wafers.",
+							"It doesnt have to be perfect, just smooth it over the cookies.",
+							"Layer the bananas on top of the pudding.",
+							"Spoon about 1/3 of the cool-whip on top of the bananas.",
+							"Repeat the layers until youve used all of your ingredients.",
+							"Place a few wafers on top, and place in the refrigerator for at least an hour.",
+							"And thats it."
+						],
+						"id": "2100037",
+						"ingredient_names": ["bananas", "vanilla wafers", "vanilla pudding mix", "milk"],
+						"ingredients_with_measurements": [
+							"4 bananas, sliced",
+							"1 (11 ounce) box reduced-fat vanilla wafers",
+							"1 (8 ounce) container Cool Whip Lite",
+							"1 (5 1/8 ounce) box vanilla pudding mix",
+							"3 cups 2% low-fat milk, cold"
+						],
+						"link": "http://www.food.com/recipe/banana-pudding-196287",
+						"recipe_id": 2100037,
+						"title": "Banana Pudding"
+					},
+					"highlight": {
+						"title": {
+							"matched_tokens": ["Banana", "Pudding"],
+							"snippet": "<mark>Banana</mark> <mark>Pudding</mark>",
+							"value": "<mark>Banana</mark> <mark>Pudding</mark>"
+						}
+					},
+					"highlights": [
+						{
+							"field": "title",
+							"matched_tokens": ["Banana", "Pudding"],
+							"snippet": "<mark>Banana</mark> <mark>Pudding</mark>",
+							"value": "<mark>Banana</mark> <mark>Pudding</mark>"
+						}
+					],
+					"text_match": 1157451471441625209,
+					"text_match_info": {
+						"best_field_score": "2211897868544",
+						"best_field_weight": 15,
+						"fields_matched": 1,
+						"score": "1157451471441625209",
+						"tokens_matched": 2
+					}
+				},
+				{
+					"document": {
+						"directions": [
+							"Mix pudding according to box",
+							"Use 1/3 of pudding to mix with half tub of cool whip and cup of nut of choice",
+							"In serving bowl layer bottom with cookies then bananas and pour plane pudding on top do 2- 3 layers of this",
+							"On your last layer use the pudding mixed with nuts and cool whip",
+							"Top with cookie",
+							"Let cool in refrigerator for 20-30 min before serving"
+						],
+						"id": "2076285",
+						"ingredient_names": [
+							"banana cream pudding",
+							"Bananas",
+							"cool whip",
+							"vanilla wafers",
+							"Pecans"
+						],
+						"ingredients_with_measurements": [
+							"3 box Instant banana cream pudding",
+							"4 Bananas",
+							"1/2 small cool whip",
+							"1 bag vanilla wafers",
+							"1 cup Pecans or walnuts"
+						],
+						"link": "cookpad.com/us/recipes/357162-banana-pudding",
+						"recipe_id": 2076285,
+						"title": "Banana Pudding"
+					},
+					"highlight": {
+						"title": {
+							"matched_tokens": ["Banana", "Pudding"],
+							"snippet": "<mark>Banana</mark> <mark>Pudding</mark>",
+							"value": "<mark>Banana</mark> <mark>Pudding</mark>"
+						}
+					},
+					"highlights": [
+						{
+							"field": "title",
+							"matched_tokens": ["Banana", "Pudding"],
+							"snippet": "<mark>Banana</mark> <mark>Pudding</mark>",
+							"value": "<mark>Banana</mark> <mark>Pudding</mark>"
+						}
+					],
+					"text_match": 1157451471441625209,
+					"text_match_info": {
+						"best_field_score": "2211897868544",
+						"best_field_weight": 15,
+						"fields_matched": 1,
+						"score": "1157451471441625209",
+						"tokens_matched": 2
+					}
+				},
+				{
+					"document": {
+						"directions": [
+							"In large bowl layer bananas and vanilla wafers.",
+							"Mix other ingredients in pan over heat stirring continuously until thick.",
+							"When thick remove from heat and pour over bananas and wafers.",
+							"Chill at least 1 hour before serving."
+						],
+						"id": "2064239",
+						"ingredient_names": ["milk", "flour", "vanilla", "sugar", "banana", "wafers"],
+						"ingredients_with_measurements": [
+							"1 (8 ounce) can evaporated milk",
+							"4 tablespoons flour",
+							"1 tablespoon vanilla",
+							"3 cups sugar",
+							"banana",
+							"wafers"
+						],
+						"link": "http://www.food.com/recipe/banana-pudding-219332",
+						"recipe_id": 2064239,
+						"title": "Banana Pudding"
+					},
+					"highlight": {
+						"title": {
+							"matched_tokens": ["Banana", "Pudding"],
+							"snippet": "<mark>Banana</mark> <mark>Pudding</mark>",
+							"value": "<mark>Banana</mark> <mark>Pudding</mark>"
+						}
+					},
+					"highlights": [
+						{
+							"field": "title",
+							"matched_tokens": ["Banana", "Pudding"],
+							"snippet": "<mark>Banana</mark> <mark>Pudding</mark>",
+							"value": "<mark>Banana</mark> <mark>Pudding</mark>"
+						}
+					],
+					"text_match": 1157451471441625209,
+					"text_match_info": {
+						"best_field_score": "2211897868544",
+						"best_field_weight": 15,
+						"fields_matched": 1,
+						"score": "1157451471441625209",
+						"tokens_matched": 2
+					}
+				},
+				{
+					"document": {
+						"directions": [
+							"Add half of the milk called for on the pudding box to the pudding mix (2 cups for a 5.1 oz box); beat well.",
+							"Add condensed milk to pudding; beat well.",
+							"Refrigerate at least 30 minutes.",
+							"Fold in Cool Whip until well incorporated.",
+							"Layer banana slices and wafer cookies with pudding in a serving bowl.",
+							"Chill until ready to serve."
+						],
+						"id": "2054450",
+						"ingredient_names": [
+							"vanilla pudding",
+							"milk",
+							"condensed milk",
+							"bananas",
+							"vanilla wafer cookies"
+						],
+						"ingredients_with_measurements": [
+							"1 (5 1/8 ounce) box instant vanilla pudding",
+							"2 cups milk",
+							"1 (14 ounce) can sweetened condensed milk",
+							"1 (8 ounce) container Cool Whip",
+							"5 bananas, sliced",
+							"1 (12 ounce) box vanilla wafer cookies"
+						],
+						"link": "http://www.food.com/recipe/banana-pudding-321532",
+						"recipe_id": 2054450,
+						"title": "Banana Pudding"
+					},
+					"highlight": {
+						"title": {
+							"matched_tokens": ["Banana", "Pudding"],
+							"snippet": "<mark>Banana</mark> <mark>Pudding</mark>",
+							"value": "<mark>Banana</mark> <mark>Pudding</mark>"
+						}
+					},
+					"highlights": [
+						{
+							"field": "title",
+							"matched_tokens": ["Banana", "Pudding"],
+							"snippet": "<mark>Banana</mark> <mark>Pudding</mark>",
+							"value": "<mark>Banana</mark> <mark>Pudding</mark>"
+						}
+					],
+					"text_match": 1157451471441625209,
+					"text_match_info": {
+						"best_field_score": "2211897868544",
+						"best_field_weight": 15,
+						"fields_matched": 1,
+						"score": "1157451471441625209",
+						"tokens_matched": 2
+					}
+				},
+				{
+					"document": {
+						"directions": [
+							"Combine the milk and vanilla bean in a small saucepan and bring just to a boil over medium heat.",
+							"Immediately turn off the heat and set aside to infuse for 10 minutes.",
+							"Whisk the egg yolks and granulated sugar together until light and fluffy.",
+							"Add the cornstarch and whisk vigorously until no lumps remain.",
+							"Whisk in 1/4 cup of the hot milk mixture until incorporated.",
+							"Whisk in the remaining hot milk mixture, reserving the empty saucepan.",
+							"Pour the mixture through a strainer back into the saucepan.",
+							"Cook over medium-high heat, whisking constantly, until thickened and slowly boiling.",
+							"Remove from the heat and stir in the butter.",
+							"Stir in the banana slices and pour into dessert cups and chill, covered if you don't want a skin, uncovered if skin is your thing.",
+							"Whip the cream with the sugar and cocoa powder until stiff.",
+							"Keep chilled until ready to serve.",
+							"Cut banana leaves in long triangles and stick it at the back of the pudding for decoration.",
+							"Top pudding with a dollop of cocoa whipped cream."
+						],
+						"id": "2051239",
+						"ingredient_names": [
+							"milk",
+							"vanilla bean",
+							"egg yolks",
+							"sugar",
+							"cornstarch",
+							"cold unsalted butter",
+							"bananas",
+							"cream",
+							"sugar",
+							"cocoa powder",
+							"Banana"
+						],
+						"ingredients_with_measurements": [
+							"2 cups milk (whole, 2 percent fat, or 1 percent fat)",
+							"1/2 vanilla bean, split lengthwise",
+							"6 egg yolks",
+							"2/3 cup sugar",
+							"1/4 cup cornstarch",
+							"1 tablespoon cold unsalted butter",
+							"2 bananas, sliced",
+							"1 cup cream",
+							"2 tablespoons sugar",
+							"2 tablespoons cocoa powder",
+							"Banana leaves, optional"
+						],
+						"link": "http://www.foodnetwork.com/recipes/banana-pudding-recipe2.html",
+						"recipe_id": 2051239,
+						"title": "Banana Pudding"
+					},
+					"highlight": {
+						"title": {
+							"matched_tokens": ["Banana", "Pudding"],
+							"snippet": "<mark>Banana</mark> <mark>Pudding</mark>",
+							"value": "<mark>Banana</mark> <mark>Pudding</mark>"
+						}
+					},
+					"highlights": [
+						{
+							"field": "title",
+							"matched_tokens": ["Banana", "Pudding"],
+							"snippet": "<mark>Banana</mark> <mark>Pudding</mark>",
+							"value": "<mark>Banana</mark> <mark>Pudding</mark>"
+						}
+					],
+					"text_match": 1157451471441625209,
+					"text_match_info": {
+						"best_field_score": "2211897868544",
+						"best_field_weight": 15,
+						"fields_matched": 1,
+						"score": "1157451471441625209",
+						"tokens_matched": 2
+					}
+				},
+				{
+					"document": {
+						"directions": [
+							"Blend in a large bowl, pudding & milk with wire wisk.",
+							"Add sour cream and 1/2 of the cool whip; set aside.",
+							"Place a layer of graham crackers, then a layer of bananas and a layer of pudding mixture in a 9x13 inch dish.",
+							"Repeat layers.",
+							"Top with remaining cool whip.",
+							"Top with crushed graham crackers."
+						],
+						"id": "2039129",
+						"ingredient_names": [
+							"sugar",
+							"milk",
+							"sour cream",
+							"cool whip",
+							"bananas",
+							"graham crackers"
+						],
+						"ingredients_with_measurements": [
+							"3 3 oz (84 grm). packages sugar-free vanilla pudding",
+							"5 cups (1175 ml) skim milk",
+							"1 8 oz (224 grm). fat free sour cream",
+							"1 12 oz (336 grm). lite cool whip",
+							"8 to 10 bananas",
+							"graham crackers"
+						],
+						"link": "online-cookbook.com/goto/cook/rpage/0016A6",
+						"recipe_id": 2039129,
+						"title": "Banana Pudding"
+					},
+					"highlight": {
+						"title": {
+							"matched_tokens": ["Banana", "Pudding"],
+							"snippet": "<mark>Banana</mark> <mark>Pudding</mark>",
+							"value": "<mark>Banana</mark> <mark>Pudding</mark>"
+						}
+					},
+					"highlights": [
+						{
+							"field": "title",
+							"matched_tokens": ["Banana", "Pudding"],
+							"snippet": "<mark>Banana</mark> <mark>Pudding</mark>",
+							"value": "<mark>Banana</mark> <mark>Pudding</mark>"
+						}
+					],
+					"text_match": 1157451471441625209,
+					"text_match_info": {
+						"best_field_score": "2211897868544",
+						"best_field_weight": 15,
+						"fields_matched": 1,
+						"score": "1157451471441625209",
+						"tokens_matched": 2
+					}
+				},
+				{
+					"document": {
+						"directions": [
+							"Lightly grease a 2-quart baking dish.",
+							"Combine 2 cups of the milk with the vanilla bean and reserved seeds in a heavy-bottomed saucepan, place over medium heat, and bring to a low boil.",
+							"Remove from the heat and discard the vanilla bean.",
+							"Whisk together the egg yolks and 1/2 cup of the sugar in a large bowl.",
+							"Combine the remaining 1/4 cup milk with the cornstarch and 1/4 teaspoon of the salt in a small separate bowl and stir to dissolve the cornstarch.",
+							"Stir the cornstarch mixture into the egg mixture.",
+							"Stir a small amount of the heated milk into the yolk mixture to temper the eggs.",
+							"Whisk the yolk mixture back into the saucepan with the milk mixture, place over medium-low heat, and cook, stirring constantly, for about 5 to 7 minutes, until the mixture thickens.",
+							"Remove from the heat, transfer to a bowl, and add the butter and rum, stirring until the butter melts.",
+							"Preheat the oven to 350F.",
+							"Cover the bottom of the prepared dish with one-third of the wafers.",
+							"Arrange half the banana slices in a layer over the wafers and cover with half the pudding.",
+							"Place another third of the wafers on top of the pudding, followed by the remaining bananas and the remaining pudding.",
+							"Arrange the remaining wafers in a ring around the edges of the dish, inserting them halfway into the pudding.",
+							"Place the egg whites, cream of tartar, and remaining 1/4 teaspoon salt in a glass or metal bowl and beat with an electric mixer on medium speed until light and frothy.",
+							"Increase the speed to high and beat to soft peaks.",
+							"Slowly add the remaining 1/4 cup sugar, beating constantly, until the whites are shiny and hold stiff peaks, about 3 minutes.",
+							"Do not beat the whites past this point or they will separate and become grainy.",
+							"Spread or pipe the meringue on top of the pudding with a spatula or pastry bag and tip, making sure to cover the pudding completely to prevent the meringue from shrinking when baked.",
+							"Form peaks by repeatedly drawing a knife or spatula across the meringue and then in an upward motion, or by piping with a pastry bag and ending with an upward motion.",
+							"Bake for 8 to 10 minutes, until the tips of the meringue are golden brown.",
+							"Remove from the oven and let cool for 10 minutes before serving.",
+							"Makes about 2 dozen sliders.",
+							"Place 24 vanilla wafers on a rimmed baking sheet.",
+							"Place about 1 teaspoon of the pudding on top of each wafer.",
+							"Top each with a slice of banana and another vanilla wafer to make a sandwich.",
+							"Add a swirl of the meringue on top of the sandwich.",
+							"Bake for about 5 minutes, until the tips of the meringue are golden brown.",
+							"Remove from the oven, let cool, and serve.",
+							"One of the bakers at Fosters Market used to make this banana pudding with broken cookie bits rather than the usual vanilla wafers.",
+							"It had never occurred to me to do it that way, but it was delicious.",
+							"Give it a try with pieces of Sweet and Salty Pecan Shortbread (page 364) or Molasses Ginger Crinkles (page 365) and see for yourself."
+						],
+						"id": "2037722",
+						"ingredient_names": [
+							"milk",
+							"vanilla bean",
+							"eggs",
+							"sugar",
+							"cornstarch",
+							"kosher salt",
+							"unsalted butter",
+							"dark rum",
+							"vanilla wafers",
+							"bananas",
+							"cream of tartar"
+						],
+						"ingredients_with_measurements": [
+							"2 1/4 cups milk",
+							"1 vanilla bean, split lengthwise, seeds scraped and reserved",
+							"4 large eggs, separated",
+							"3/4 cup sugar",
+							"1/4 cup cornstarch, sifted",
+							"1/2 teaspoon kosher salt",
+							"3 tablespoons unsalted butter",
+							"2 tablespoons dark rum",
+							"8 ounces vanilla wafers (about two-thirds of a 12-ounce box)",
+							"3 ripe bananas, sliced into 1/4-inch rounds",
+							"1/2 teaspoon cream of tartar"
+						],
+						"link": "http://www.epicurious.com/recipes/food/views/banana-pudding-383803",
+						"recipe_id": 2037722,
+						"title": "Banana Pudding"
+					},
+					"highlight": {
+						"title": {
+							"matched_tokens": ["Banana", "Pudding"],
+							"snippet": "<mark>Banana</mark> <mark>Pudding</mark>",
+							"value": "<mark>Banana</mark> <mark>Pudding</mark>"
+						}
+					},
+					"highlights": [
+						{
+							"field": "title",
+							"matched_tokens": ["Banana", "Pudding"],
+							"snippet": "<mark>Banana</mark> <mark>Pudding</mark>",
+							"value": "<mark>Banana</mark> <mark>Pudding</mark>"
+						}
+					],
+					"text_match": 1157451471441625209,
+					"text_match_info": {
+						"best_field_score": "2211897868544",
+						"best_field_weight": 15,
+						"fields_matched": 1,
+						"score": "1157451471441625209",
+						"tokens_matched": 2
+					}
+				},
+				{
+					"document": {
+						"directions": [
+							"Place milk in a large saucepan and scald.",
+							"Add sugar and flour and whisk until smooth.",
+							"Add eggs 1 at a time while whisking.",
+							"Cook over med heat until thick.",
+							"Remove from heat and add vanilla.",
+							"Mix pudding with 3/4 of the bananas and 2 cups of the vanilla wafers.",
+							"Place 1 cup of vanilla wafers in the bottom of a large bowl.",
+							"Pour in pudding and top with remaining bananas and vanilla wafers."
+						],
+						"id": "2016234",
+						"ingredient_names": [
+							"milk",
+							"sugar",
+							"flour",
+							"eggs",
+							"vanilla",
+							"bananas",
+							"vanilla wafers"
+						],
+						"ingredients_with_measurements": [
+							"2 cups milk",
+							"34 cup sugar",
+							"13 cup flour",
+							"2 eggs",
+							"1 teaspoon vanilla",
+							"8 bananas, sliced",
+							"4 cups vanilla wafers"
+						],
+						"link": "http://www.food.com/recipe/banana-pudding-152204",
+						"recipe_id": 2016234,
+						"title": "Banana Pudding"
+					},
+					"highlight": {
+						"title": {
+							"matched_tokens": ["Banana", "Pudding"],
+							"snippet": "<mark>Banana</mark> <mark>Pudding</mark>",
+							"value": "<mark>Banana</mark> <mark>Pudding</mark>"
+						}
+					},
+					"highlights": [
+						{
+							"field": "title",
+							"matched_tokens": ["Banana", "Pudding"],
+							"snippet": "<mark>Banana</mark> <mark>Pudding</mark>",
+							"value": "<mark>Banana</mark> <mark>Pudding</mark>"
+						}
+					],
+					"text_match": 1157451471441625209,
+					"text_match_info": {
+						"best_field_score": "2211897868544",
+						"best_field_weight": 15,
+						"fields_matched": 1,
+						"score": "1157451471441625209",
+						"tokens_matched": 2
+					}
+				}
+			],
+			"out_of": 2231142,
+			"page": 1,
+			"request_params": {
+				"collection_name": "recipes_1671731571",
+				"per_page": 15,
+				"q": "banana pudding"
+			},
+			"search_cutoff": false,
+			"search_time_ms": 12
+		}
+	]
+}
