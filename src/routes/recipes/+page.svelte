@@ -1,16 +1,17 @@
 <script>
-	import data from '$lib/data/search_banana_pudding.json';
+	/** @type {import('./$types').PageData}*/
+	export let data;
 </script>
 
 <h1>Recipes</h1>
 
 <div class="grid">
-	{#each data.results[0].hits as hit}
+	{#each data.recipes as recipe}
 		<div>
-			<h2>{hit.document.title}</h2>
-			<p>{hit.document.directions.join(', ')}</p>
+			<h2>{recipe.title}</h2>
+			<p>{recipe.directions}</p>
 		</div>
-		<a href="/recipes/{hit.document.id}">View Recipe</a>
+		<a href="/recipes/{recipe.id}">View Recipe</a>
 	{/each}
 </div>
 

@@ -4,6 +4,8 @@
 
 	import { goto } from '$app/navigation';
 
+	import { page } from '$app/stores';
+
 	let key;
 	function handleKeyDown(event) {
 		key = event.key;
@@ -27,33 +29,29 @@
 	{/if}
 {/if}
 
-{#await data}
-	<p>loading...</p>
-{:then data}
-	<h1>{data.recipe.title}</h1>
-	<div>
-		<h2><b>Ingredients</b></h2>
-		<ul>
-			{#each data.recipe.ingredients
-				.split('"')
-				.slice(1, -1)
-				.filter((x) => x !== ', ') as ingredient}
-				<li>{ingredient}</li>
-			{/each}
-		</ul>
-	</div>
-	<div>
-		<h2><b>Directions</b></h2>
-		<ul>
-			{#each data.recipe.directions
-				.split('"')
-				.slice(1, -1)
-				.filter((x) => x !== ', ') as direction}
-				<li>{direction}</li>
-			{/each}
-		</ul>
-	</div>
-{/await}
+<h1>{data.recipe.title}</h1>
+<div>
+	<h2><b>Ingredients</b></h2>
+	<ul>
+		{#each data.recipe.ingredients
+			.split('"')
+			.slice(1, -1)
+			.filter((x) => x !== ', ') as ingredient}
+			<li>{ingredient}</li>
+		{/each}
+	</ul>
+</div>
+<div>
+	<h2><b>Directions</b></h2>
+	<ul>
+		{#each data.recipe.directions
+			.split('"')
+			.slice(1, -1)
+			.filter((x) => x !== ', ') as direction}
+			<li>{direction}</li>
+		{/each}
+	</ul>
+</div>
 
 <a href="/recipes/search">Back to Search</a>
 <a href="/recipes/{data.recipe.id + 1}">Next Recipe</a>
