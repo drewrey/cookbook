@@ -44,6 +44,7 @@
 							<p>{recipe.directions}</p>
 						</div>
 						<!-- TODO: this link is unreliable -->
+						<!--This data-sveltekit-reload doesn't seem to help-->
 						<button onClick={goto('/recipes/' + recipe.id)}>View Recipe</button>
 					</div>
 				{/each}

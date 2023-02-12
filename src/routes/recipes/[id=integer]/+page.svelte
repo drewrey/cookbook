@@ -57,7 +57,16 @@
 		{/each}
 	</ul>
 </div>
+<div>
+	<h2><b>Source</b></h2>
+	<!-- TODO: format this URL more reliably -->
+	<a data-sveltekit-reload rel="noreferrer" href={'http://' + data.recipe.link} target="_blank"
+		>{data.recipe.link}</a
+	>
+	<a href={'http://' + data.recipe.link}>{data.recipe.link}</a>
+</div>
 
+<hr />
 <a href="/recipes/search">Back to Search</a>
 <a href="/recipes/{data.recipe.id + 1}">Next Recipe</a>
 {#if data.recipe.id > 0}
@@ -67,5 +76,10 @@
 <style>
 	h1 {
 		text-align: left;
+	}
+
+	hr {
+		height: 10px;
+		width: 100%;
 	}
 </style>
