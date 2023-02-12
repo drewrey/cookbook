@@ -1,25 +1,65 @@
 <script>
-	/** @type {import('./$types').PageServerData}*/
+	/** @type {import('./$types').PageData}*/
 	export let data;
+
+	import { goto } from '$app/navigation';
+
+	let key;
+	function handleKeyDown(event) {
+		key = event.key;
+	}
+
+	function resetKey() {
+		key = null;
+	}
 </script>
 
-<h1>{data.recipe.document.title}</h1>
-<div>
-	<h2><b>Ingredients</b></h2>
-	<ul>
-		{#each data.recipe.document.ingredients_with_measurements as ingredient}
-			<li>{ingredient}</li>
-		{/each}
-	</ul>
-</div>
-<div>
-	<h2><b>Directions</b></h2>
-	<ul>
-		{#each data.recipe.document.directions as direction}
-			<li>{direction}</li>
-		{/each}
-	</ul>
-</div>
+<svelte:window on:keydown={handleKeyDown} />
+
+{#if key}
+	{#if key === 'ArrowRight'}
+		{resetKey()}
+		{goto('/recipes/' + (data.recipe.id + 1))}
+	{/if}
+	{#if key === 'ArrowLeft' && data.recipe.id > 0}
+		{resetKey()}
+		{goto('/recipes/' + (data.recipe.id - 1))}
+	{/if}
+{/if}
+
+{#await data}
+	<p>loading...</p>
+{:then data}
+	<h1>{data.recipe.title}</h1>
+	<div>
+		<h2><b>Ingredients</b></h2>
+		<ul>
+			{#each data.recipe.ingredients
+				.split('"')
+				.slice(1, -1)
+				.filter((x) => x !== ', ') as ingredient}
+				<li>{ingredient}</li>
+			{/each}
+		</ul>
+	</div>
+	<div>
+		<h2><b>Directions</b></h2>
+		<ul>
+			{#each data.recipe.directions
+				.split('"')
+				.slice(1, -1)
+				.filter((x) => x !== ', ') as direction}
+				<li>{direction}</li>
+			{/each}
+		</ul>
+	</div>
+{/await}
+
+<a href="/recipes/search">Back to Search</a>
+<a href="/recipes/{data.recipe.id + 1}">Next Recipe</a>
+{#if data.recipe.id > 0}
+	<a href="/recipes/{data.recipe.id - 1}">Previous Recipe</a>
+{/if}
 
 <style>
 	h1 {
