@@ -4,9 +4,14 @@
 
 	import { goto } from '$app/navigation';
 
-	import { page } from '$app/stores';
-
+	/**
+	 * @type string | null
+	 */
 	let key;
+
+	/**
+	 * @param event {KeyboardEvent}
+	 */
 	function handleKeyDown(event) {
 		key = event.key;
 	}
