@@ -2,7 +2,8 @@
 	import { fly } from 'svelte/transition';
 	import { page } from '$app/stores';
 	import { enhance } from '$app/forms';
-	import { goto } from '$app/navigation';
+
+	import Card from '../../../components/Card.svelte';
 
 	/** @type {import('./$types').PageData} */
 	export let data;
@@ -39,15 +40,7 @@
 {#if form && form.results.length > 0}
 	{#each form.results as result (result.id)}
 		<div in:fly={{ y: 10 }}>
-			<div>
-				<h2>{result.title}</h2>
-				<p>{result.directions}</p>
-			</div>
-			<div class="width: 100px">
-				<button title="View Recipe" on:click={() => goto('/recipes/' + result.id)}
-					>View Recipe</button
-				>
-			</div>
+			<Card recipe={result} />
 		</div>
 	{/each}
 {:else if form?.results.length === 0}
@@ -76,9 +69,5 @@
 		padding: 5px;
 		outline: inherit;
 		box-shadow: 0 0 0 1px grey;
-	}
-
-	h2 {
-		font-weight: bold;
 	}
 </style>

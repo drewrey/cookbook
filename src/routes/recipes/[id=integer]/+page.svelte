@@ -5,6 +5,7 @@
 	import { linear } from 'svelte/easing';
 	import { fade } from 'svelte/transition';
 	import { goto } from '$app/navigation';
+	import debounce from 'lodash/debounce';
 
 	import { parseStringifiedArray } from '$lib/utils/parseData';
 
@@ -16,9 +17,15 @@
 	/**
 	 * @param event {KeyboardEvent}
 	 */
-	function handleKeyDown(event) {
-		key = event.key;
-	}
+	const handleKeyDown = debounce(
+		(event) => {
+			console.log('new', event.key);
+			console.log('old', key);
+			key = event.key;
+		},
+		500,
+		{ leading: true }
+	);
 
 	function resetKey() {
 		key = null;
@@ -29,7 +36,6 @@
 	 * @param {string} str
 	 */
 	const convertDegreeSymbol = (str) => {
-		console.log(str);
 		return str.replace('\\u00b0', '°');
 	};
 </script>

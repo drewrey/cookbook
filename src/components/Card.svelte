@@ -1,5 +1,6 @@
 <script>
 	import { fly } from 'svelte/transition';
+	import { goto } from '$app/navigation';
 
 	import { parseStringifiedArray } from '$lib/utils/parseData';
 
@@ -28,7 +29,9 @@
 			{/each}
 		</ul>
 	</div>
-	<a href="/recipes/{recipe.id}">View Recipe</a>
+	<div class="width: 100px">
+		<button title="View Recipe" on:click={() => goto('/recipes/' + recipe.id)}>View Recipe</button>
+	</div>
 </div>
 
 <style>
