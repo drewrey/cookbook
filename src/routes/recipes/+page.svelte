@@ -2,7 +2,7 @@
 	/** @type {import('./$types').PageData}*/
 	export let data;
 
-	import { parseStringifiedArray } from '$lib/utils/parseData';
+	import Card from '../../components/Card.svelte';
 </script>
 
 <svelte:head>
@@ -12,26 +12,8 @@
 
 <h1>Recipes</h1>
 
-<div class="grid">
+<div>
 	{#each data.recipes as recipe}
-		<div>
-			<h2>{recipe.title}</h2>
-			<div>
-				<i>Main ingredients</i>:<br />
-
-				<ul>
-					{#each parseStringifiedArray(recipe.ner) as ingredient}
-						<li>{ingredient}</li>
-					{/each}
-				</ul>
-			</div>
-		</div>
-		<a href="/recipes/{recipe.id}">View Recipe</a>
+		<Card {recipe} />
 	{/each}
 </div>
-
-<style>
-	h2 {
-		font-weight: bold;
-	}
-</style>
