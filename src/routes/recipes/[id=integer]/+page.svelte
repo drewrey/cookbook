@@ -19,6 +19,15 @@
 	function resetKey() {
 		key = null;
 	}
+
+	/**
+	 * TODO: this should go in the import script
+	 * @param {string} str
+	 */
+	const convertDegreeSymbol = (str) => {
+		console.log(str);
+		return str.replace('\\u00b0', '°');
+	};
 </script>
 
 <svelte:window on:keydown={handleKeyDown} />
@@ -53,7 +62,7 @@
 			.split('"')
 			.slice(1, -1)
 			.filter((x) => x !== ', ') as direction}
-			<li>{direction}</li>
+			<li>{convertDegreeSymbol(direction)}</li>
 		{/each}
 	</ul>
 </div>
