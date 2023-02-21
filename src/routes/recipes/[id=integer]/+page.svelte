@@ -63,7 +63,6 @@
 	<a data-sveltekit-reload rel="noreferrer" href={'http://' + data.recipe.link} target="_blank"
 		>{data.recipe.link}</a
 	>
-	<a href={'http://' + data.recipe.link}>{data.recipe.link}</a>
 </div>
 
 <hr />

@@ -1,5 +1,4 @@
 <script>
-	import Counter from './Counter.svelte';
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
 </script>
@@ -18,14 +17,8 @@
 			</picture>
 		</span>
 
-		to your new<br />SvelteKit app
+		to your new favorite<br /><span class="cookbook">cookbook</span>
 	</h1>
-
-	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
-	</h2>
-
-	<Counter />
 </section>
 
 <style>
@@ -55,5 +48,10 @@
 		height: 100%;
 		top: 0;
 		display: block;
+	}
+
+	span.cookbook {
+		font-variant-caps: all-small-caps;
+		text-decoration-line: underline;
 	}
 </style>

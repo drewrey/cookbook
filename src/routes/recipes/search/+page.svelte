@@ -72,4 +72,8 @@
 		outline: inherit;
 		box-shadow: 0 0 0 1px grey;
 	}
+
+	h2 {
+		font-weight: bold;
+	}
 </style>
