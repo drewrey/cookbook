@@ -10,7 +10,7 @@
 	/** @type {import('./$types').ActionData} */
 	export let form;
 
-	if (data) {
+	if (data.searched && data.results) {
 		form = {
 			results: data.results
 		};
@@ -31,7 +31,7 @@
 	/><button class="search" type="submit">Search</button>
 </form>
 
-{#if form && form.results}
+{#if form && form.results.length > 0}
 	{#each form.results as result (result.id)}
 		<div in:fly={{ y: 10 }}>
 			<div>
@@ -45,7 +45,7 @@
 			</div>
 		</div>
 	{/each}
-{:else if form && form.results.length === 0}
+{:else if form?.results.length === 0}
 	<p>no results</p>
 {/if}
 

@@ -21,7 +21,10 @@ export async function load({ params }) {
 	return { recipe };
 }
 
-/** @param id string */
+/**
+ * @param {Object} obj
+ * @param {string} obj.id
+ */
 async function getRecipe({ id }) {
 	return new Promise((resolve, reject) => {
 		db.execute('SELECT * FROM recipes WHERE id = ?', [id], (err, res) => {

@@ -6,11 +6,14 @@ import db from '$lib/data/db.js';
 export async function load({ url }) {
 	let responseData = [];
 
+	let searched = false;
+
 	if (url.searchParams.has('q')) {
-		responseData = await searchRecipes({ query: url.searchParams.get('q') });
+		searched = true;
+		responseData = await searchRecipes({ query: url.searchParams.get('q')?.toString() || '' });
 	}
 
-	return { results: responseData };
+	return { results: responseData, searched };
 }
 
 /** @type {import('./$types').Actions} */
@@ -18,7 +21,9 @@ export const actions = {
 	default: async ({ request }) => {
 		const formData = await request.formData();
 
-		const data = await searchRecipes({ query: formData.get('q') });
+		const query = formData.get('q')?.toString() || '';
+
+		const data = await searchRecipes({ query });
 
 		if (!data) {
 			throw error(500, {
@@ -31,7 +36,8 @@ export const actions = {
 };
 
 /**
- * @param {*} param0
+ * @param {Object} obj
+ * @param {string} obj.query
  */
 async function searchRecipes({ query }) {
 	return new Promise((resolve, reject) => {
