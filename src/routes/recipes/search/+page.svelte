@@ -19,6 +19,11 @@
 	let search = $page.url.searchParams.get('q');
 </script>
 
+<svelte:head>
+	<title>Search Recipes</title>
+	<meta name="description" content="Search the cookbook" />
+</svelte:head>
+
 <h1>Search Recipes</h1>
 <form method="POST" use:enhance>
 	<input

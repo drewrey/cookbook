@@ -3,6 +3,7 @@
 	export let data;
 
 	import { goto } from '$app/navigation';
+	import { parseStringifiedArray } from '$lib/utils/parseData';
 
 	/**
 	 * @type string | null
@@ -45,12 +46,17 @@
 
 <h1>{data.recipe.title}</h1>
 <div>
-	<h2><b>Ingredients</b></h2>
+	<h2><b>Ingredients With Measurements</b></h2>
 	<ul>
-		{#each data.recipe.ingredients
-			.split('"')
-			.slice(1, -1)
-			.filter((x) => x !== ', ') as ingredient}
+		{#each parseStringifiedArray(data.recipe.ingredients) as ingredient}
+			<li>{ingredient}</li>
+		{/each}
+	</ul>
+</div>
+<div>
+	<h2><b>Parsed Ingredients</b></h2>
+	<ul>
+		{#each parseStringifiedArray(data.recipe.ner) as ingredient}
 			<li>{ingredient}</li>
 		{/each}
 	</ul>
@@ -58,10 +64,7 @@
 <div>
 	<h2><b>Directions</b></h2>
 	<ul>
-		{#each data.recipe.directions
-			.split('"')
-			.slice(1, -1)
-			.filter((x) => x !== ', ') as direction}
+		{#each parseStringifiedArray(data.recipe.directions) as direction}
 			<li>{convertDegreeSymbol(direction)}</li>
 		{/each}
 	</ul>

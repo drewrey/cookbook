@@ -11,7 +11,7 @@
 	</main>
 
 	<footer>
-		<p>© Chef's Kiss 2023</p>
+		<p>© Featured Future 2023</p>
 	</footer>
 </div>
 
